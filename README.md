@@ -1,29 +1,29 @@
 # SWD4CS
- * SWD4CSは、Simple WinForms Designer for CSharp (VSCode)の略  
- * VisualStudioは重いので、VSCodeをよく使う。がデザイナがない。  
- * デザイナの作り方が全く分からず、思い付くままに書いてみた。  
- * この作り方では複雑なものは無理。ちょっとしたツール程度なら使えるかも？
+ * SWD4CS, or Simple WinForms Designer for CSharp (VSCode)
+ * VisualStudio is heavy, so I often use VSCode. But it doesn't have a designer.
+ * I had no idea how to make a designer, so I wrote one as I thought of it.
+ * It's not possible to make anything complicated with this method. Maybe it'll be usable for a simple tool?
   
-## 開発環境
+## Development environment
  * Windows11 Home  
  * VisualStudio2022 C# → VSCode .net6.0
  
-## スクリーンショット  
+## Screenshots
 ![SWD4CS](https://user-images.githubusercontent.com/86605611/152679486-e8f7bbed-69b4-4186-b402-35d7bd2fec8f.png)
 ![SWD4CS](https://user-images.githubusercontent.com/86605611/152784518-c135ec3a-e156-4163-8f8d-90cc023d8448.png)
-※ControlTreeは表示のみ  
+* Control Tree is display only
 
 
-## 動画
+## Videos
  https://youtu.be/BJAhuU2W3uM  
  https://youtu.be/3LyjAvXLpYg  
  https://youtu.be/82qa0vOP_qk  
  https://youtu.be/FkDaMW4hGyk
  
-## ブログ
+## Blog
  https://danpapa-hry.hateblo.jp/entry/2022/02/23/210416
  
-## 実装
+## Implementation
  ・ポトペタ  
  ・一部のプロパティ変更  
  ・Button  

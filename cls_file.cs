@@ -316,9 +316,9 @@
             {
                 FileName = "Form1.Designer.cs",
                 InitialDirectory = @"C:\",
-                Filter = "Designer.csファイル(*.Designer.cs;*.Designer.cs)|*.Designer.cs;*.Designer.cs",
+                Filter = "Designer.cs File (*.Designer.cs;*.Designer.cs)|*.Designer.cs;*.Designer.cs",
                 FilterIndex = 1,
-                Title = "保存先のファイルを選択してください",
+                Title = "Save As",
                 RestoreDirectory = true
             };
             if (dlg.ShowDialog() == DialogResult.OK) { File.WriteAllText(dlg.FileName, SourceCode); }
@@ -329,9 +329,9 @@
             OpenFileDialog dlg = new()
             {
                 InitialDirectory = @"C:\",
-                Filter = "Designer.csファイル(*.Designer.cs;*.Designer.cs)|*.Designer.cs;*.Designer.cs",
+                Filter = "Designer.cs File (*.Designer.cs;*.Designer.cs)|*.Designer.cs;*.Designer.cs",
                 FilterIndex = 1,
-                Title = "開くファイルを選択してください",
+                Title = "Open File",
                 RestoreDirectory = true
             };
             if (dlg.ShowDialog() != DialogResult.OK) { return new FILE_INFO(); }
